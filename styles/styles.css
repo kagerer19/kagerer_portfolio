@@ -4,7 +4,7 @@
 :root {
     --primary-text-color: #FFFFFF;
     --secondary-text-color: #669999;
-    --primary-font: 'font-family: ' Poppins ', sans-serif;
+    --primary-font: 'Arimo', sans-serif;
 }
 
 body {
@@ -27,8 +27,6 @@ header {
 h1 {
     text-align: center;
     margin-top: revert;
-    text-decoration: underline;
-
 }
 
 nav ul {
