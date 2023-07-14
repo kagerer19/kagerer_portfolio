@@ -20,6 +20,10 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    height: 10rem;
+}
+
 h1 {
     text-align: center;
     margin-top: revert;
