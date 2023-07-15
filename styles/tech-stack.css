@@ -6,7 +6,7 @@
     border: 1px solid #8E8DDA;
     border-radius: 15px;
     background-color: rgba(142, 141, 218, 0.71);
-    margin: 10% auto;
+    margin: 11% 9%;
 }
 
 .tech-svg {
@@ -21,7 +21,11 @@
 
     .tech-stack {
         width: 40%;
-        margin-left: 35%;
+        margin-left: 30%;
         margin-top: 5%;
+    }
+
+    article p {
+        margin-left: 25%;
     }
 }

@@ -4,11 +4,10 @@
 :root {
     --primary-text-color: #FFFFFF;
     --secondary-text-color: #669999;
-    --primary-font: 'Arimo', sans-serif;
+    --primary-font: 'Outfit', sans-serif;
 }
 
 html {
-    padding: 3%;
     background-image: linear-gradient(65deg, #97D5D5, rgba(145, 147, 222, 0.39), rgba(142, 141, 218, 0.68), rgba(226, 139, 147, 0.72), rgba(138, 209, 209, 0.57));
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,8 +38,7 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding-top: 0;
-    margin-right: 25px;
+    padding: 0 25%;
 }
 
 li {
@@ -62,7 +60,7 @@ li, a {
     h1 {
         /* negative value for my positioning of the h1 */
         text-align: end;
-        margin: -24px;
+        margin: 5px;
     }
 
     ul {
@@ -74,11 +72,5 @@ li, a {
         min-width: 300px;
         margin: 0;
         padding: 0;
-    }
-
-    a:hover {
-        font-size: 3.9rem;
-        color: #a2d2ff;
-        margin: 250px;
     }
 }
