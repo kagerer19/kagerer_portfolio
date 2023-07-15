@@ -8,8 +8,10 @@
 }
 
 html {
-    padding: 5%;
+    padding: 3%;
     background-image: linear-gradient(65deg, #97D5D5, rgba(145, 147, 222, 0.39), rgba(142, 141, 218, 0.68), rgba(226, 139, 147, 0.72), rgba(138, 209, 209, 0.57));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body {
@@ -58,9 +60,9 @@ li, a {
 @media only screen and (min-width: 1400px) {
     /* HEADER   */
     h1 {
+        /* negative value for my positioning of the h1 */
         text-align: end;
-        margin-top: revert;
-        padding-right: 2rem;
+        margin: -24px;
     }
 
     ul {
