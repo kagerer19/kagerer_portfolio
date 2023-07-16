@@ -10,8 +10,7 @@ article {
     align-items: center;
 }
 
-img {
-    width: 400px;
+.social-media-img {
     height: 410px;
     margin-bottom: 0;
 }
@@ -34,11 +33,11 @@ article p {
         margin-left: 30%;
     }
 
-    .heading-content {
+    .content {
         display: flex;
         justify-content: center;
-        gap: 3%;
         margin-left: 8%;
+        margin-bottom: 0;
     }
 
     img {

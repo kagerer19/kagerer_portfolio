@@ -54,6 +54,10 @@ li, a {
     font-weight: bold;
 }
 
+a:hover {
+    color: #1B0A41;
+}
+
 /* Desktop */
 @media only screen and (min-width: 1400px) {
     /* HEADER   */
@@ -73,4 +77,33 @@ li, a {
         margin: 0;
         padding: 0;
     }
+
+    .main-info {
+        display: flex;
+    }
+
+    .main--right {
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+
+    .main--left {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        margin-left: 20%;
+    }
+
+    .main-text {
+        width: 600px;
+        margin-left: 43%;
+        margin-top: -230px;
+    }
+
+    a:hover {
+        color: #1B0A41;
+    }
+
 }
