@@ -38,7 +38,7 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0 25%;
+    padding: 0 40%;
 }
 
 li {
@@ -56,6 +56,11 @@ li, a {
 
 a:hover {
     color: #1B0A41;
+}
+
+.cv-download-link::after {
+    content: " (View my CV )";
+    font-size: 1em;
 }
 
 /* Desktop */

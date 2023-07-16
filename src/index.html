@@ -21,14 +21,15 @@
     <h1>ALEXANDER.</h1>
     <nav>
         <ul>
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#career">Career</a>
+            <li><a href="#projects">Projects</a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <article>
+    <article id="about">
         <Div class="content">
             <h2 class="hero-heading">Behind The Dev!</h2>
             <img src="../assets/hero-image.png" alt="image of a desk with a PC">
@@ -52,16 +53,10 @@
             <h2 class="hero-heading">The Barman!</h2>
             <img src="../assets/bartender.png" alt="image of a bartender">
         </Div>
-        <p class="main-text">I'm an aspiring frontend developer from South Africa. I'm all about sports and anything IT-related. I
-            love
-            riding the waves of the web, cruising on my skateboard, and playing football. Video games also give me a
-            thrill, but my true passion lies in frontend development. Every day, I dive deeper into this fascinating
-            world, eager to learn and make my mark. Exciting times lie ahead, and I can't wait to see where this
-            journey
-            takes me.</p>
+        <p class="main-text">From bartending to web development, my career shift has been nothing short of transformative. Through my journey, I've immersed myself in the world of coding, honing my skills and knowledge solely through YouTube and my self-guided learning processes this is empowering me to build websites and create digital wonders. As I continue to evolve, I'm excited to embrace the limitless possibilities that web development offers and pave my path in this dynamic and ever-growing field.</p>
     </article>
     <section class="boxes">
-        <h2 class="projects-heading" >Previous <a class="cv-download-link" href="https://www.dropbox.com/scl/fi/1swefh8twb1xo0ndk4qn2/Alexander_Kagerer_lebenslauf.pdf?rlkey=ptcqmi4anxeaxe3vtzmzwhe1m&dl=0" download><u>Career</u></a> in the cocktail bartender scene</h2>
+        <h2 class="projects-heading" >Previous <a class="cv-download-link" href="https://www.dropbox.com/scl/fi/1swefh8twb1xo0ndk4qn2/Alexander_Kagerer_lebenslauf.pdf?rlkey=ptcqmi4anxeaxe3vtzmzwhe1m&dl=0" download><u id="career">Career</u></a> in the cocktail bartender scene</h2>
         <div class="container">
             <div class="box">
                 <a href="https://www.cahoots-london.com/" target="blank"><img class="project-items" src="../assets/south-side.png" alt="image of a cocktail"></a>
@@ -90,35 +85,23 @@
     </section>
     <article>
         <Div class="main--right">
-            <h2 class="hero-heading">Behind The Dev!</h2>
+            <h2 class="hero-heading">In my Free Time</h2>
             <img class="social-media-img" src="../assets/social-media.png" alt="image of social media logos">
         </Div>
-        <p>I'm an aspiring frontend developer from South Africa. I'm all about sports and anything IT-related. I
-            love
-            riding the waves of the web, cruising on my skateboard, and playing football. Video games also give me a
-            thrill, but my true passion lies in frontend development. Every day, I dive deeper into this fascinating
-            world, eager to learn and make my mark. Exciting times lie ahead, and I can't wait to see where this
-            journey
-            takes me.</p>
+        <p>I have a passion for surfing, skating, and playing football, all of which keep me active and engaged. Additionally, in my leisure time, I love streaming on Twitch, sharing my gaming experiences and connecting with others in the online community.</p>
     </article>
     <article>
         <Div class="main--left">
-            <h2 class="hero-heading">Behind The Dev!</h2>
+            <h2 class="hero-heading">The Future!</h2>
             <img src="../assets/games.png" alt="image of games">
         </Div>
-        <p class="main-text">I'm an aspiring frontend developer from South Africa. I'm all about sports and anything IT-related. I
-            love
-            riding the waves of the web, cruising on my skateboard, and playing football. Video games also give me a
-            thrill, but my true passion lies in frontend development. Every day, I dive deeper into this fascinating
-            world, eager to learn and make my mark. Exciting times lie ahead, and I can't wait to see where this
-            journey
-            takes me.</p>
+        <p class="main-text">I am actively seeking both full-time opportunities and side projects of any scale, where I can apply my creativity and technical expertise. From building dynamic websites to crafting user-centric experiences, I am ready to contribute to your team or project and bring it to new heights. Let's collaborate and create something exceptional together!.</p>
     </article>
     <section class="boxes">
-        <h2 class="projects-heading" >Projects</h2>
+        <h2 class="projects-heading">Projects</h2>
         <div class="container">
             <div class="box">
-                <a href="https://github.com/kagerer19" target="blank"><img class="project-items" src="../assets/calculator.png" alt="image of games"></a>
+                <a id="projects" href="https://github.com/kagerer19" target="blank"><img class="project-items" src="../assets/calculator.png" alt="image of a calculator"></a>
                 <h2>Calculator</h2>
                 <p>
                     My first project i built using HTML, CSS and Java Script.
@@ -126,7 +109,7 @@
             </div>
 
             <div class="box">
-                <a href="https://github.com/kagerer19" target="blank"><img class="project-items" src="../assets/clock.png" alt="image of games"></a>
+                <a href="https://github.com/kagerer19" target="blank"><img class="project-items" src="../assets/clock.png" alt="image of a clock"></a>
                 <h2>Clock</h2>
                 <p>
                     Built a clock to practise my frontend skills with CSS and Java Script.
@@ -134,7 +117,7 @@
             </div>
 
             <div class="box">
-                <a href="https://github.com/kagerer19" target="blank"> <img class="project-items" src="../assets/todo-list.png" alt="image of games"></a>
+                <a href="https://github.com/kagerer19" target="blank"> <img class="project-items" src="../assets/todo-list.png" alt="image of a todo list"></a>
                 <h2>Todo list</h2>
                 <p>
                     My first application I built with ReactJS.
@@ -145,17 +128,17 @@
     <aside class="contact-form">
         <form id="contact" action="#" method="post">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" required>
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" required>
 
             <div class="radios">
                 <label for="private">Private</label>
                 <input type="radio" id="private" name="private">
 
                 <label for="company">Company</label>
-                <input type="radio" id="company" name="private">
+                <input type="radio" id="company" name="company">
 
             </div>
 
@@ -169,9 +152,9 @@
 
         <div class="svg-container">
             <a href="#"><img src="../assets/icon_svgs/home.svg" alt="logo for home button"></a>
-            <a href="#"><img src="../assets/icon_svgs/email.svg" alt="logo of an email"></a>
+            <a href="#contact"><img src="../assets/icon_svgs/email.svg" alt="logo of an email"></a>
             <a href="https://github.com/kagerer19" target="blank"><img src="../assets/icon_svgs/github.svg" alt="logo of github cat"></a>
-            <a href="#"><img src="../assets/icon_svgs/up-btn.svg" alt="logo of github cat"></a>
+            <a href="#"><img src="../assets/icon_svgs/up-btn.svg" alt="logo of up arrow"></a>
         </div>
     </div>
 </footer>

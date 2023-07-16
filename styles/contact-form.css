@@ -41,7 +41,7 @@ form input[type="submit"] {
 form label[for="name"],
 form label[for="email"],
 form label[for="private"],
-form label[for="company"] {
+form label[for="company"]{
     color: black
 }
 
