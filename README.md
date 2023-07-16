@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Alexander Kagerer Personal Portfolio
 
 This is my personal portfolio website built using only HTML and CSS. It showcases my skills learnt in the first week of WEB at Coder Bay Linz. The purpose of this portfolio is to present my web development journey and demonstrate my abilities to potential employers and clients.
 
